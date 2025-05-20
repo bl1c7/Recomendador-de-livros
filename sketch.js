@@ -26,7 +26,7 @@ function setup() {
   gostaDrama = prompt("Você gosta de livros de drama? (sim/não)").toLowerCase() === 
 "sim";
  for (let livros of livros) {
- if (idadeUsuario >= filme.idade) {
+ if (idadeUsuario >= livro.idade) {
  if (
  (gostaFantasia && livro.categorias.includes("fantasia")) ||
  (gostaAventura && livro.categorias.includes("aventura")) ||
