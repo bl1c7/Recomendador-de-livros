@@ -9,13 +9,13 @@ let livros = [
 ];
 let idadeUsuario;
 let gostaFantasia, gostaAventura, gostaDrama;
-let filmesRecomendados = [];
+let livrosRecomendados = [];
 function setup() {
  createCanvas(600, 400);
  background(240);
  textSize(16);
  fill(50);
- text("Recomendador de Filmes", 20, 30);
+ text("Recomendador de Livros", 20, 30);
  // Coletar idade
  idadeUsuario = int(prompt("Qual sua idade?"));
  // Coletar preferências
